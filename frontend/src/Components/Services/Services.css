@@ -43,6 +43,7 @@
   transition: 0.3s ease;
   color: white;
   font-size: 1.5rem;
+  overfolw:hidden
   padding: 1rem;
 }
 
