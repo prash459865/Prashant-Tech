@@ -4,23 +4,23 @@ import './Services.css'
 const services = [
     {
         heading:'DIGITAL MARKETING',
-        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis. Qui quo quis dolore architecto impedit deserunt odio!"
+        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis."
     },
     {
         heading:'E-COMMERCE SOLUTIONS',
-        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis. Qui quo quis dolore architecto impedit deserunt odio!"
+        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis."
     },
     {
         heading:'WEB DEVELOPMENT',
-        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis. Qui quo quis dolore architecto impedit deserunt odio!"
+        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis."
     },
     {
         heading:'APP DEVELOPMENT',
-        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis. Qui quo quis dolore architecto impedit deserunt odio!"
+        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis."
     },
     {
         heading:'CUSTOM SOLUTION',
-        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis. Qui quo quis dolore architecto impedit deserunt odio!"
+        data: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, vero, amet incidunt delectus, dolores ut alias in similique tempora iusto illum blanditiis."
     },
 ]
 
