@@ -1,0 +1,7 @@
+.Portfolio-component{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d4771;
+}

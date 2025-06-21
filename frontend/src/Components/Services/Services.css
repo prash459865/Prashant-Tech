@@ -1,0 +1,115 @@
+.services-component {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #445881;
+  transform: translateZ(-200px) scale(0.5);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+  }
+}
+
+.services-box h2 {
+  margin: 2rem;
+}
+
+.services-box .services-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  padding: 3rem 5rem;
+}
+
+.services-box .services-container .particular-service {
+  height: 20rem;
+  width: 100%;
+  padding: 2rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #e88bb3;
+  transition: 0.3s ease;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.services-box .services-container .particular-service:hover {
+  box-shadow: 0 0 25px #e88bb3;
+  cursor: pointer;
+  transform: translate3d(10px);
+}
+
+.particular-service p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pricing-plans-container {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.pricing-plans-container .particular-plan {
+  height: 30rem;
+  width: 25%;
+  border: 1px solid black;
+  background-color: #EEF9FF;
+  padding: 2rem;
+  transition: 0.3s ease;
+  box-shadow: 0 0 25px #b3b9bc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pricing-plans-container .particular-plan:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+@media (max-width: 1024px) {
+  .services-box .services-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .pricing-plans-container .particular-plan {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-box .services-container {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .pricing-plans-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-plans-container .particular-plan {
+    width: 90%;
+  }
+}
