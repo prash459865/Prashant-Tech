@@ -54,6 +54,7 @@
 
 .navbar-container .navbaar-list ul li:hover {
   color: #e88bb3;
+   background-color: #0d4771;
   transform: translateY(5px);
 }
 
